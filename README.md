@@ -8,4 +8,11 @@ Our team's aim was to develop a medical-website which offers a free-of-cost diag
 ## Features of Site
 * Tumour Detection using MRI scans
 * Malaria Detection using Histopathology(microscopic examination of tissue) scans
-* Covid-19 & Pneumonia detection using chest X-Ray scans
+* Covid-19 & Pneumonia detection using Chest X-Ray scans
+
+## Authors
+* Bhandi
+* Jayant Rathi
+* Hritvik Jamwal
+## Datasets
+* [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
