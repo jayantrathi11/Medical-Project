@@ -1,1 +1,5 @@
 # Medical-Project
+AI-enabled tools can identify meaningful relationships in raw data and has the potential to be applied in almost every field of medicine, including drug development, treatment decisions, patient care, and financial and operational decisions.
+
+With AI, healthcare professionals could can tackle complex problems that would be difficult, time-intensive, or inefficient to address alone.AI could be a valuable resource for medical professionals, allowing them to better use their expertise and provide value across the health ecosystem.
+
