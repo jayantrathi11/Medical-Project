@@ -16,3 +16,5 @@ Our team's aim was to develop a medical-website which offers a free-of-cost diag
 * Hritvik Jamwal
 ## Datasets
 * [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
+* [Chest X-Ray Images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+* [Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
