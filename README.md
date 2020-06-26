@@ -5,7 +5,7 @@ With AI, healthcare professionals could can tackle complex problems that would b
 
 Our team's aim was to develop a medical-website which offers a free-of-cost diagnosis  of various prevailing diseases to the doctors in such a way that it causes reduction of time taken for identification of these diseases. 
 
-## Features
-*Tumour 
-
-
+## Features of Site
+* Tumour Detection using MRI scans
+* Malaria Detection using Histopathology(microscopic examination of tissue) scans
+* Covid-19 & Pneumonia detection using chest X-Ray scans
