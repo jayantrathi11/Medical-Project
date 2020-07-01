@@ -11,7 +11,7 @@ Our team's aim was to develop a medical-website which offers a free-of-cost diag
 * Covid-19 & Pneumonia detection using Chest X-Ray scans
 
 ## Authors
-* Bhandi
+* Ishaan Baranwal
 * Jayant Rathi
 * Hritvik Jamwal
 ## Datasets
