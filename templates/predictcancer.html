@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictor</title>
+</head>
+<body>
+    <h1 style="text-align: center; width: 100%; margin: auto;">Brain Tumour Predictor</h1>
+    <br>
+    <div>
+        <a href="predict.html">Pneumonia Predictor</a>
+        <a href="predictmalaria.html">Malaria Predictor</a>
+    </div>
+    <input id="image-selector" type="file">
+    <button id="predict-button">Predict</button>
+    <p style="font-weight: bold;">Predictions</p>
+    <p>Answer:<span id="final-prediction"></span></p>
+    <img id="selected-image" src=""/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        let base64Image;
+    $("#image-selector").change(function() {
+        let reader = new FileReader();
+        reader.onload = function(e) {
+            let dataURL = reader.result;
+            $('#selected-image').attr("src", dataURL);
+            base64Image = dataURL.replace("data:image/jpeg;base64,","");
+            console.log(base64Image);
+        }
+        reader.readAsDataURL($("#image-selector")[0].files[0]);
+        $("#dog-prediction").text("");
+    });
+    
+    $("#predict-button").click(function(){
+        let message = {
+            image: base64Image
+        }
+            console.log(message);
+            $.post("http://127.0.0.1:5000/predictcancer", JSON.stringify(message), function(response){
+                console.log(response);
+                $('#final-prediction').text(response);
+            });
+        });
+    </script>
+</body>
+</html>
