@@ -14,6 +14,7 @@ Our team's aim was to develop a medical-website which offers a free-of-cost diag
 * Ishaan Baranwal
 * Jayant Rathi
 * Hritvik Jamwal
+* Himanshu
 ## Datasets
 * [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
 * [Chest X-Ray Images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
